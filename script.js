@@ -55,7 +55,7 @@ rollDice.addEventListener("click", function () {
 
   //display the dice image
   dice.classList.remove("hidden");
-  dice.src = `images/dice-${diceNumber}.png`;
+  dice.src = `dice-${diceNumber}.png`;
   //if no is nt 1 add it to the active player current score
   if (diceNumber != 1) {
     current += diceNumber;
